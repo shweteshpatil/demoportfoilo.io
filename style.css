@@ -1,0 +1,120 @@
+.navbar{
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 1000;
+border: 1px solid gray;
+}
+
+
+
+
+
+
+
+.carousel-item>img{
+    height: 90vh;
+    width: 90vw;
+}
+.navbar-brand>img{
+    height: 70px;
+    width: 70px;
+}
+
+/* .navbar-nav{
+    background-color: brown;
+} */
+.nav-item:hover{
+    background-color: rgb(247, 149, 88) !important;
+}
+/* services */
+.col-md-4{
+    /* border: 1px solid red; */
+    height: 65vh;
+
+    
+}
+.sercices-cols{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    transition: all ease .8s;
+    margin-top: .6rem;
+
+}
+.card:hover{
+    box-shadow: 5px 5px 40px rgb(253, 207, 207);
+    cursor: pointer;
+    margin-top: -30px;
+}
+
+
+
+ /* About us start */
+ .about-col-left,.about-col-right{
+    height: 70vh;
+    /* border: 1px solid red; */
+ }
+
+
+ .about-col-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+ .about-col-left > img{
+ height: 50vh;
+    /* width: 20vw;  */
+    border-radius: 1000px;
+
+
+
+
+ }
+ .about-col-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+ }
+
+
+ .about-col-right>h1{
+    margin: 1.5rem;
+ }
+
+
+
+ .about-col-right > h6{
+    margin: 1.5rem;
+
+
+ }
+
+ .about-col-right>p{
+    letter-spacing: 1.1rem;
+    font-size: 1rem;
+    
+
+ }
+ .about-col-left > img{
+
+    /* border: 1px solid red; */
+    border-radius: 200px;
+    box-shadow: 5px 5px 15px rgb(225, 225, 225);
+}
+
+
+
+/* <!-- contact us starts --> */
+
+
+.col-left,.col-right{
+    /* border: 1px solid red; */
+    height: 70vh;
+    
+}
